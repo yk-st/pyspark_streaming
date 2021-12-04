@@ -4,6 +4,7 @@
   "name": "User",
   "fields": [
     {"name": "name", "type": "string"},
-    {"name": "action", "type": ["string", "null"]}
+    {"name": "action", "type": ["string", "null"]},
+    {"name": "sendtime", "type": ["int", "null"]}
   ]
 }
