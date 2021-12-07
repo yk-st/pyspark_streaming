@@ -3,11 +3,11 @@
   "type": "record",
   "name": "User",
   "fields": [
-    {"name": "name", "type": "string"},
-    {"name": "action", "type": ["string", "null"]},
-    {"name": "sendtime", "type": ["int", "null"]},
+    {"name": "id", "type": "string"},
+    {"name": "type", "type": ["string", "null"]},
+    {"name": "sendtime", "type": ["int", "null"]}
     {
-      "name": "age",
+      "name": "temp",
       "type": ["null", "string"],
       "default": "1"
     }
