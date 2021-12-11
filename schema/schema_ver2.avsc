@@ -1,15 +1,11 @@
 {
-  "namespace": "example.avro",
+  "namespace": "root",
   "type": "record",
-  "name": "User",
+  "name": "Device",
   "fields": [
-    {"name": "id", "type": "string"},
-    {"name": "type", "type": ["string", "null"]},
-    {"name": "sendtime", "type": ["int", "null"]}
-    {
-      "name": "temp",
-      "type": ["null", "string"],
-      "default": "1"
-    }
+    { "name": "id", "type": "string" },
+    { "name": "type", "type": "string" },
+    { "name": "sendtime", "type": "int" },
+    { "name": "temp", "type": "string", "default": "1" }
   ]
 }
